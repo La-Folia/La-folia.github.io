@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Norlin
+title: Equinox
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
+description: Equinox - Astronomy and Space Science Forum
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -10,7 +10,7 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # Author Settings
 author:
-  name: Robert Wilson
+name: Minwook Kang
   avatar: '/images/15.jpg'
 
 
