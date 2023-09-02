@@ -11,22 +11,23 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 # Author Settings
 author:
 name: Minwook Kang
-  avatar: '/images/15.jpg'
+  avatar: '/images/author.png'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: Robert Wilson
-  description: Thoughts, stories and ideas.
-  image: '/images/01.jpg'
+  title: Equinox
+  description: Thoughts, tips, code, ideas.
+  image: '/images/equinox.jpeg'
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contact form
-  description: Norlin comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  email: kang0481@naver.com # Add your email for contact form
+  description: Undergraduate researchers Department of Astronomy and Space Science
+Chungnam National University Daejeon, Korea # Add a description of your form
 
 # NOTE
 # Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
