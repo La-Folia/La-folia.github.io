@@ -10,7 +10,7 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # Author Settings
 author:
-name: Minwook Kang
+  name: Minwook Kang
   avatar: '/images/author.jpg'
 
 
@@ -25,7 +25,7 @@ hero:
 #-------------------------------
 # Contact Settings
 contact:
-  email: kang0481@naver.com # Add your email for contact form
+  email: minook0902@gmail.com # Add your email for contact form
   description: Minwook Kang, Undergraduate researchers Department of Astronomy and Space Science Chungnam National University Daejeon, Korea # Add a description of your form
 
 # NOTE
@@ -71,7 +71,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
-
+  - jekyll-polyglot
 paginate: 8
 paginate_path: "/page/:num"
 
@@ -93,3 +93,7 @@ tag_permalink_style:  pretty
 sass:
   sass_dir: _sass
   style: compressed
+languages: ["en", "ko"] # 지원하고자 하는 언어
+   default_lang: "ko" # 컨텐츠의 기본 언어
+   exclude_from_localization: ["image"] # 루트 레벨 폴더 중 다국어 기능 제외 시킬 폴더
+   parallel_localizaion: false # 윈도우에서는 버그가 있어서 false로 해야 동작한다고 합니다.
