@@ -3,8 +3,8 @@
 title: Equinox
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Equinox: The Astronomy and Space Science Forum
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # The subpath of your site, e.g. /blog
+url: "https://blog.naver.com/herodotus-" # The base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
