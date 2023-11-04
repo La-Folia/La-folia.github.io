@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Norlin
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
+title: Equinox
+logo: '/images/logo1.png# You can add own logo. For example '/images/logo.png'.
+description: Equinox – The Astronomy And Space Science Forum
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -10,22 +10,22 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # Author Settings
 author:
-  name: Robert Wilson
-  avatar: '/images/15.jpg'
+  name: Minwook Kang
+  avatar: '/images/author.jpg'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: Robert Wilson
+  title: Minwook Kang
   description: Thoughts, stories and ideas.
-  image: '/images/01.jpg'
+  image: '/images/equinox.jpeg'
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contact form
+  email: kang0481@naver.com # Add your email for contact form
   description: Norlin comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
 
 # NOTE
