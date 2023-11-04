@@ -1,9 +1,10 @@
+#-------------------------------
 # General Site Settings
 title: Equinox
-logo: '/images/logo1.png' # You can add own logo. For example '/images/logo.png'.
+logo: /images/logo1.png # You can add own logo. For example '/images/logo.png'.
 description: Equinox - The Astronomy and Space Science Forum.
-baseurl: /blog # The subpath of your site, e.g. /blog
-url: https://la-folia.github.io/ # The base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # The subpath of your site, e.g. /blog
+url: "https://la-folia.github.io/" # The base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
