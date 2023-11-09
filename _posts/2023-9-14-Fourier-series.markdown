@@ -10,7 +10,7 @@ use_math: true
 
 주기가 $T$ 인 연속함수 $f(t)$ 는 $f(t) = f(t - nT)$ 인 조건을 만족시킨다. $\,$ (단, n은 정수) 복소지 함수 $( complex expotional function)$ 의 직교성 $(orthogonality)$ 을 이용하면 임의의 주기함수를
 
-$$f(t)=\frac {1}{T} \sum_{n = -\infty}^{\infty} F_{n}e^\frac {i2\pi nt}{T} (11.1)$$
+$f(t)=\frac {1}{T} \sum_{n = -\infty}^{\infty} F_{n}e^\frac {i2\pi nt}{T} (11.1)$
 
 과 같이 복소지함수의 선형결합으로 전개할 수 있는데, 이를 푸리에 급수 $(Fourier series)$ 라 한다.
 
