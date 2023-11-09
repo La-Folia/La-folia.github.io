@@ -16,7 +16,7 @@ $f(t)=\frac {1}{T} \sum_{n = -\infty}^{\infty} F_{n}e^\frac {i2\pi nt}{T} (11.1)
 
 $F_n$ 은
 
-$F_{n} = \frac {2}{T} \int_0^T f(t)e^\frac {-i2\pi nt}{T} dt \qquad (11.2)$
+$F_{n} = \frac {1}{T} \int_0^T f(t)e^\frac {-i2\pi nt}{T} dt \qquad (11.2)$
 로 주어진다.
 
 $F_0$ 는 함수 $f(t)$ 의 한 주기에 대한 평균값에 해당하며, $F_{n}$ (단, n => 1 ) 의 실수부와 허수부는 각각 $f(t)$의 주파수가 $n/T$ 인 우함수(코사인 함수) 성분과 기함수 (사인함수) 성분의 크기를 나타낸다.
