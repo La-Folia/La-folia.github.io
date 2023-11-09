@@ -1,9 +1,11 @@
-
 ---
-layout: page
-title: practice_jung
-permalink: /styleguide/
-image: '/images/50.jpg'
+layout: post
+title:  9/14 푸리에 급수
+description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies...
+date:   2023-9-14 15:01:35 +0300
+image:  '/images/05.jpg'
+tags:   [work, technology]
+use_math: true
 ---
 
 ###야구에 대해 알아보자.
