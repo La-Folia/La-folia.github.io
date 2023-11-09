@@ -1,7 +1,11 @@
 ---
-layout: page
+layout: post
 title: Git hub Guide for Equinoxer
 image: '/images/50.jpg'
+tags:   [work, technology]
+date:   2023-9-14 15:01:35 +0300
+description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita     pos    uisti, et verba vestra sunt. Idemne potest esse dies...
+
 ---
 
 ***
