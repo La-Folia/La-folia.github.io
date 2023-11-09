@@ -8,19 +8,19 @@ tags:   [work, technology]
 use_math: true
 ---
 
-### 야구에 대해 알아보자.
-# 내야수
+# 야구에 대해 알아보자.
+## 내야수
 1루수
 2루수
 3루수
 유격수
-***
-# 외야수
+
+## 외야수
 중견수
 좌익수
 우익수
-***
-# 야구의 꽃은 투수이다
-<img src="/images/pitcher.png">
+
+### 야구의 꽃은 투수이다.
+<img src="/images/pitcher.jpg">
 
 
