@@ -25,7 +25,7 @@ $f(t)$ 가 실함수 $(real function)$ 일 때, 식 (11.1) 의 켤레복소수 $
 
 오일러 공식 $(Euler’s formula)$
 
-$$e^{i\theta} = cos{\theta} + isin{\theta} \qquad (11.3)$$
+$e^{i\theta} = cos{\theta} + isin{\theta} \qquad (11.3)$
 를 이용하여 , 식 (11.1)을
 
 $$f(t) = a_{0} \quad + \quad \sum_{n = 1}^{\infty} a_{n}cos(\frac {2\pi nt}{T}) \quad + \quad \sum_{n = 1}^{\infty} b_{n}sin(\frac {2\pi nt}{T}) \qquad (11.4)$$
@@ -33,7 +33,7 @@ $$f(t) = a_{0} \quad + \quad \sum_{n = 1}^{\infty} a_{n}cos(\frac {2\pi nt}{T}) 
 
 여기서 $a_{0}=F_{0}$ 이고
 
-$$a_{n} = F_{n} + F_{-n} \quad b_{n} =i( F_{n} + F_{-n} ) \qquad (n \geq 1) (11.5)$$
+$a_{n} = F_{n} + F_{-n} \quad b_{n} =i( F_{n} + F_{-n} ) \qquad (n \geq 1) (11.5)$
 이다.
 
 따라서, $f(t)$ 가 우함수라면 $b_{n}=0$ $( 또는 F_{n} = F_{-n} )$ 을 만족시키고, 기함수라면 $a_{n}=0$ $(또는 F_{n} = - F_{-n})$ 을 만족시킨다.
@@ -41,8 +41,7 @@ $$a_{n} = F_{n} + F_{-n} \quad b_{n} =i( F_{n} + F_{-n} ) \qquad (n \geq 1) (11.
 파이썬의 $mpmath$ 라이브러리는 복소수연산이 가능하며 $mpmath.fourier()$ 함수는 푸리에 급수의 계수를 계산한다.
 
 1. 주기가 $T=2$ 인 사각파
-$f(t)= 1\quad(0 \leq t \leq 1),
--1\quad(1 < t \leq 2)$
+$f(t)= 1\quad(0 \leq t \leq 1),-1\quad(1 < t \leq 2)$
 
 의 푸리에 급수를 구하고 그래프를 확인하시오. 이문제의 해는
 
