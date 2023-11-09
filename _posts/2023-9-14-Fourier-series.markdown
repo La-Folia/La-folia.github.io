@@ -28,7 +28,7 @@ $f(t)$ 가 실함수 $(real function)$ 일 때, 식 (11.1) 의 켤레복소수 $
 $e^{i\theta} = cos{\theta} + isin{\theta} \qquad (11.3)$
 를 이용하여 , 식 (11.1)을
 
-$$f(t) = a_{0} \quad + \quad \sum_{n = 1}^{\infty} a_{n}cos(\frac {2\pi nt}{T}) \quad + \quad \sum_{n = 1}^{\infty} b_{n}sin(\frac {2\pi nt}{T}) \qquad (11.4)$$
+$f(t) = a_{0} \quad + \quad \sum_{n = 1}^{\infty} a_{n}cos(\frac {2\pi nt}{T}) \quad + \quad \sum_{n = 1}^{\infty} b_{n}sin(\frac {2\pi nt}{T}) \qquad (11.4)$
 와 같이 사인함수와 코사인함수의 선형결합으로 전개할 수 있다.
 
 여기서 $a_{0}=F_{0}$ 이고
@@ -45,7 +45,7 @@ $f(t)= 1\quad(0 \leq t \leq 1),-1\quad(1 < t \leq 2)$
 
 의 푸리에 급수를 구하고 그래프를 확인하시오. 이문제의 해는
 
-$$f(t) = \, \frac {4}{\pi} \sum_{n=1,3,5,...}^\infty n^{-1}sin(\frac {2\pi n t}{T})$$
+$f(t) = \, \frac {4}{\pi} \sum_{n=1,3,5,...}^\infty n^{-1}sin(\frac {2\pi n t}{T})$
 다.
 
 (풀이)
