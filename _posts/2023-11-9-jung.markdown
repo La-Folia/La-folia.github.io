@@ -1,26 +1,26 @@
 ---
 layout: post
-title:  9/14 푸리에 급수
+title:  practice
 description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies...
 date:   2023-9-14 15:01:35 +0300
-image:  '/images/05.jpg'
+image:  '/images/pitcher.png'
 tags:   [work, technology]
 use_math: true
 ---
 
-###야구에 대해 알아보자.
-#내야수
+### 야구에 대해 알아보자.
+# 내야수
 1루수
 2루수
 3루수
 유격수
-
-#외야수
+***
+# 외야수
 중견수
 좌익수
 우익수
-
-#야구의 꽃은 투수이다
+***
+# 야구의 꽃은 투수이다
 <img src="/images/pitcher.png">
 
 
