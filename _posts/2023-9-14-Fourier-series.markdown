@@ -5,6 +5,7 @@ description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum
 date:   2023-9-14 15:01:35 +0300
 image:  '/images/05.jpg'
 tags:   [work, technology]
+use_math: true
 ---
 
 주기가 $T$ 인 연속함수 $f(t)$ 는 $f(t) = f(t - nT)$ 인 조건을 만족시킨다. $\,$ (단, n은 정수) 복소지 함수 $( complex expotional function)$ 의 직교성 $(orthogonality)$ 을 이용하면 임의의 주기함수를
