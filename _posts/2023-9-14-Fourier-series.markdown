@@ -67,6 +67,7 @@ $f(x) = \frac {4}{\pi}  \sum_{n=1,3,5,…}^\infty n^{-1}sin({2\pi n t})$
 $python$을 이용하여 $matplotlib$ 으로 급수 표현하기
 
 ```py
+
 from mpmath import mp
 import numpy as np
 import matplotlib.pyplot as plt
@@ -115,4 +116,5 @@ plt.plot(t,sum(sin + cos))
 plt.xlabel(r'$x$')
 plt.ylabel(r"f(x)")
 plt.show()
+
 ```
