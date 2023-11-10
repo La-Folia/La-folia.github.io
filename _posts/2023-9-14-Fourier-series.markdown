@@ -72,7 +72,7 @@ from mpmath import mp
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 함수 정의
+
 def function(t):
     if 0 < t < 1:
         return 1
@@ -81,33 +81,33 @@ def function(t):
     else:
         return 0
     
-# N,T 푸리에 급수에서 항의 개수 와 function의 주기 설정
+
 N,T = 10, 2 
 
-# 푸리에 급수를 구한다 / c와 s는 각각 cos 과 sin 함수의 계수
+
 c,s = mp.fourier(function,[0,T],N)
 
 num = 1000
 t = np.linspace(0,T,num)
 
-# 객체 np.newaxis 를 이용해서 2차원 배열로 확장한다.
+
 a_n = np.array(c)[:,np.newaxis]
 b_n = np.array(s)[:,np.newaxis]
 print(a_n)
 print(b_n)
 
-# 인덱스
+
 n = np.arange(N+1)[:,np.newaxis]
-# 사인항과 코사인항을 계산
+
 cos = a_n*np.cos(2*np.pi*n*t/T)
 sin = b_n*np.cos(2*np.pi*n*t/T)
 
-# function을 f 에 저장
+
 f = np.zeros(num)
 for i in range(num):
     f[i] = function(t[i])
 
-# 사인항, 코사인항, 급수의 총 합을 그래프로 그린다.
+
 fig = plt.figure(1,figsize = (20,10))
 plt.plot(t,f,'b')
 plt.plot(t,sin.T)
