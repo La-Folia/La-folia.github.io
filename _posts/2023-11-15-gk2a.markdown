@@ -22,7 +22,7 @@ google colab에서 작업을 할 겁니다. 위에 자료들을 구글드라이�
 {% endhighlight %}
 
 netCDF4와 cartopy는 필요한 라이브러리 이름입니다.
-cartopy는 주로 지도를 그릴 떄 사용합니다.
+cartopy는 주로 지도를 그릴 때 사용합니다.
 
 {% highlight js %}
 from google.colab import drive
