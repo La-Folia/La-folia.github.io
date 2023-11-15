@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  11/16 딥러닝(DNN)
-description: Let's study about DNN
-date:   2023-11-15 22:52:35 +0300
-image:  '/images/06.jpg'
+title:  DNN
+description: Let's study about DNN.
+date:   2023-9-14 15:01:35 +0300
+image:  '/images/NN.jpg'
 tags:   [work, technology]
 use_math: true
 ---
