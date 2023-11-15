@@ -282,4 +282,8 @@ ax.add_patch(circle)
 주어진 자료를 가지고 나도 그림을 그릴 수 있다니!
 다들 배워보면 좋겠습니다.
 
+<<<<<<< HEAD
 <img src='/images/gk2a_RGB.png'>
+=======
+<'/images/gk2a_RGB.png'>
+>>>>>>> 270cb39bcd04612c43908bed1db876b17cfab75a
