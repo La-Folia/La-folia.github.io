@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  gk2a RGB
+title:  gk2a RGB 합성 그림
 description: Let's draw an image with gk2a data learned in space science and hands-on classes.
 date:   2023-9-14 15:01:35 +0300
 image:  '/images/gk2a_RGB.png'
@@ -30,6 +30,7 @@ drive.mount('/content/drive')
 {% endhighlight %}
 
 본인의 드라이브주소를 복사해서 넣어줍니다.
+본인 구글 드라이브와 연결하는 과정입니다.
 
 {% highlight js %}
 import netCDF4 as nc
@@ -69,7 +70,11 @@ def bystscl(data, min_val, max_val, top):
 ```
 
 함수를 정의해줍니다. 데이터의 크기를 제한해 정리해주는 것 같습니다. 
-if문을 사용해 데이터가 원하는 범위 내에 있는 게 아니면 버려줍니다. 이 부분 도움 요청
+if문을 사용해 데이터가 원하는 범위 내에 있는 게 아니면 버려줍니다.
+bytscl함수는 array를 byte 데이터 유형으로 확장하고 변환하는데 사용합니다.
+max는 고려할 배열 요소의 최대값, min은 최소값, top은 조정된 결과의 최대값입니다.
+이때 기본값이 255라 뒤에서 255로 나눠줍니다.
+int16은 데이터 형식의 범위네요.
 
 ## longitude, latitude 설정
 
@@ -122,6 +127,7 @@ var_1d_blue[var_1d_blue == 32768] = np.nan
 {% endhighlight %}
 
 데이터를 여는데 모두 netcdf4를 써주네요.
+astype은 dtype을 변경하는 함수입니다.
 이걸 R, G, B 3가지 모두 해줍니다.
 
 {% highlight js %}
@@ -156,7 +162,7 @@ var_name = "image_pixel_values"
 
 var_2d = np.array(ds.data_vars[var_name]).astype(float)
 
-var_2d[var_2d == 32678] = np.nan
+var_2d[var_2d == 32768] = np.nan
 
 var_2d2 = cv2.resize(var_2d, dsize = (1800, 1800), interpolation = cv2.INTER_AREA)
 
@@ -168,8 +174,9 @@ var_1d_red
 var_1d_red[var_1d_red == 32768] = np.nan
 {% endhighlight %}
 
-유독 red만 다릅니다. 유의하시길 바랍니다.
-np.nan은 누락된 값을 나타냅니다. None과 헷갈리기 쉬운데, None은 값이 존재하지 않음을 나타냅니다.
+var_2d의 크기를 지정해줍니다.
+np.nan은 누락된 값을 나타냅니다. 
+None과 헷갈리기 쉬운데, None은 값이 존재하지 않음을 나타냅니다.
 
 ## 데이터 프레임 만들기
 
@@ -282,8 +289,7 @@ ax.add_patch(circle)
 주어진 자료를 가지고 나도 그림을 그릴 수 있다니!
 다들 배워보면 좋겠습니다.
 
-<<<<<<< HEAD
 <img src='/images/gk2a_RGB.png'>
 =======
-<'/images/gk2a_RGB.png'>
->>>>>>> 270cb39bcd04612c43908bed1db876b17cfab75a
+
+
