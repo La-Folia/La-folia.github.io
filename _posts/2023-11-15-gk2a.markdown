@@ -50,7 +50,7 @@ import matplotlib.colors as mcolors
 
 ## RGB 함수 정의
 
-```
+{% highlight js %}
 def bystscl(data, min_val, max_val, top):
 
     #Scale the data based on input type (integer or float)
@@ -66,7 +66,7 @@ def bystscl(data, min_val, max_val, top):
     scaled_data = np.clip(scaled_data, 0, top)
 
     return scaled_data
-```
+{% endhighlight %}
 
 함수를 정의해줍니다. 데이터의 크기를 제한해 정리해주는 것 같습니다. 
 if문을 사용해 데이터가 원하는 범위 내에 있는 게 아니면 버려줍니다. 이 부분 도움 요청
@@ -282,8 +282,7 @@ ax.add_patch(circle)
 주어진 자료를 가지고 나도 그림을 그릴 수 있다니!
 다들 배워보면 좋겠습니다.
 
-<<<<<<< HEAD
+
 <img src='/images/gk2a_RGB.png'>
-=======
-<'/images/gk2a_RGB.png'>
->>>>>>> 270cb39bcd04612c43908bed1db876b17cfab75a
+
+
