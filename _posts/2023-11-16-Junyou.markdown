@@ -1,0 +1,11 @@
+---
+layout: post
+title:  JUNYOUE2 practice
+description: Let's study about DNN.
+date:   2023-11-16 15:01:35 +0300
+image:  '/images/NN.jpg'
+tags:   [work, technology]
+use_math: true
+---
+
+sdffffdsfsdfs
