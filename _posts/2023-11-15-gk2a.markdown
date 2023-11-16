@@ -15,7 +15,6 @@ use_math: true
 ## 필요 라이브러리 설치 및 구글 드라이브 연결
 google colab에서 작업을 할 겁니다. 위에 자료들을 구글드라이브에 넣고 연결해줍니다.
 
-
 {% highlight js %}
 !pip install netCDF4
 !pip install cartopy
@@ -69,11 +68,11 @@ def bystscl(data, min_val, max_val, top):
     return scaled_data
 {% endhighlight %}
 
-함수를 정의해줍니다. 데이터의 크기를 제한해 정리해주는 것 같습니다. 
+함수를 정의해줍니다.
 if문을 사용해 데이터가 원하는 범위 내에 있는 게 아니면 버려줍니다.
 bytscl함수는 array를 byte 데이터 유형으로 확장하고 변환하는데 사용합니다.
 max는 고려할 배열 요소의 최대값, min은 최소값, top은 조정된 결과의 최대값입니다.
-이때 기본값이 255라 뒤에서 255로 나눠줍니다.
+값들을 0~255까지 정규화 시켜줍니다.
 int16은 데이터 형식의 범위네요.
 
 ## longitude, latitude 설정
