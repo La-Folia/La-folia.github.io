@@ -3,7 +3,7 @@ layout: post
 title:  9/14 푸리에 급수
 description: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies...
 date:   2023-9-14 15:01:35 +0300
-image:  '/images/05.jpg'
+image:  '/images/fourier.jpg'
 tags:   [work, technology]
 use_math: true
 ---
@@ -66,7 +66,7 @@ $f(x) = \frac {4}{\pi}  \sum_{n=1,3,5,…}^\infty n^{-1}sin({2\pi n t})$
 
 $python$을 이용하여 $matplotlib$ 으로 급수 표현하기
 
-```py
+{% highlight js %}
 
 from mpmath import mp
 import numpy as np
@@ -116,5 +116,6 @@ plt.plot(t,sum(sin + cos))
 plt.xlabel(r'$x$')
 plt.ylabel(r"f(x)")
 plt.show()
+{% endhighlight %}
 
-```
+<img src="/images/graph.jpg">
