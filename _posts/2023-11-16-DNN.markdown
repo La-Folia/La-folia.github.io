@@ -104,3 +104,6 @@ Google에서 제공하는 오픈소스 라이브러리로, 인공신경망 구�
 3. Pytorch
 Facebook에서 제공하는 오픈소스 딥러닝 프레임워크로, 쉬운 구조 생성, 배치 학습 등의 특징
 
+{% highlight js %}
+https://gamma.app/public/--wcp8974h8255jjg?mode=doc
+{% endhighlight %}
